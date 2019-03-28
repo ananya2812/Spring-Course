@@ -1,4 +1,4 @@
-package com.ananya.springusingspringboot.CDI;
+package com.ananya.spring.CDI;
 
 import javax.inject.Inject;
 import javax.inject.Named;

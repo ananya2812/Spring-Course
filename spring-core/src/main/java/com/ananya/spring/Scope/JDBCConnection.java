@@ -1,4 +1,4 @@
-package com.ananya.springusingspringboot.Scope;
+package com.ananya.spring.Scope;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;

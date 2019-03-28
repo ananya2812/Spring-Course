@@ -8,11 +8,11 @@
            http://www.springframework.org/schema/context/spring-context-2.5.xsd">
 
 	<context:component-scan base-package="com.ananya"/>
-	<bean id="xmlJdbcConnection" class="com.ananya.springusingspringboot.xml.XmlJdbcConnection">
+	<bean id="xmlJdbcConnection" class="com.ananya.spring.xml.XmlJdbcConnection">
 		<!-- collaborators and configuration for this bean go here -->
 	</bean>
 
-	<bean id="xmlPersonDAO" class="com.ananya.springusingspringboot.xml.XmlPersonDAO">
+	<bean id="xmlPersonDAO" class="com.ananya.spring.xml.XmlPersonDAO">
 		<property name="xmlJdbcConnection" ref="xmlJdbcConnection" />
 	</bean>
 

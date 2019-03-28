@@ -1,4 +1,4 @@
-package com.ananya.springusingspringboot.Basic;
+package com.ananya.spring.Basic;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

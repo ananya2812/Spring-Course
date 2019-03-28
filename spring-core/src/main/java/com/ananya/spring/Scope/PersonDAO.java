@@ -1,4 +1,4 @@
-package com.ananya.springusingspringboot.Scope;
+package com.ananya.spring.Scope;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

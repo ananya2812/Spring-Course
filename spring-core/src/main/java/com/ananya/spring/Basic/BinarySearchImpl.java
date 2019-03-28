@@ -1,4 +1,4 @@
-package com.ananya.springusingspringboot.Basic;
+package com.ananya.spring.Basic;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;

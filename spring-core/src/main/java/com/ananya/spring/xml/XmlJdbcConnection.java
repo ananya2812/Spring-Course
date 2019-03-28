@@ -1,4 +1,4 @@
-package com.ananya.springusingspringboot.xml;
+package com.ananya.spring.xml;
 
 public class XmlJdbcConnection {
 

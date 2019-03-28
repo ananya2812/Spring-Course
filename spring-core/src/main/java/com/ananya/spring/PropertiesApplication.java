@@ -1,4 +1,4 @@
-package com.ananya.springusingspringboot;
+package com.ananya.spring;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
-import com.ananya.springusingspringboot.Properties.ExternalService;
+import com.ananya.spring.Properties.ExternalService;
 
 @Configuration
 @ComponentScan
