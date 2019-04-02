@@ -8,4 +8,8 @@ public class CdiDAO {
 	public CdiDAO() {
 		System.out.println("Cdi Dao");
 	}
+
+	public int[] getData() {
+		return new int[] { 1, 2, 3 };
+	}
 }
