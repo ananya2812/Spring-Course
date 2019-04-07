@@ -13,7 +13,7 @@ public class MethodExecutionCalculationAspect {
 
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-	@Around(value = "execution(* com.ananya.springaop.business.*.*(..))")
+	@Around(value = "com.ananya.springaop.aspect.CommonJoinPointConfig.trackTimeAnnotation()")
 	public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
 		long startTime = System.currentTimeMillis();
 		Object retVal = joinPoint.proceed();

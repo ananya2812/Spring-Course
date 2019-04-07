@@ -15,7 +15,7 @@ public class BeforeAspect {
 
 	// PointCut
 	// execution(* PACKAGE.*.*(..))
-	@Before("com.ananya.springaop.aspect.CommonJoinPointConfig.allLayerExecution()")
+	@Before("com.ananya.springaop.aspect.CommonJoinPointConfig.dataLayerExecution()")
 	public void before(JoinPoint joinPoint) {
 		// Advice
 		logger.info("Intercepted Method Calls {} ", joinPoint);

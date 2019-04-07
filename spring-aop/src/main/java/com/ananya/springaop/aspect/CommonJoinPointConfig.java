@@ -24,4 +24,7 @@ public class CommonJoinPointConfig {
 	public void allLayerExecution() {
 	}
 
+	@Pointcut("@annotation(com.ananya.springaop.aspect.TrackTime)")
+	public void trackTimeAnnotation() {
+	}
 }
